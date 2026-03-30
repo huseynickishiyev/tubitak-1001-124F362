@@ -8,6 +8,8 @@ This repository contains C++ implementations of novel entropy estimators for ran
 - Aslan et al. — *"Estimating Entropy via Index-Value Coincidence"*
 - Aslan et al. — *"Observations on NIST Entropy Suite"*
 
+Disclaimer: The "Authors" named throughout this repository (Huseyn Kishiyev, Osman Furkan Atakul, Özge Baran Yelim) refer solely to the individuals who implemented the software and built the evaluation pipeline. The underlying mathematical methods, estimators, and statistical frameworks are the original work of the respective researchers cited in each source file and in the references above. No claim is made over any of the original intellectual contributions. This repository exists purely as a research implementation effort. The authors declare no conflict of interest.
+
 ---
 
 ## Table of Contents
