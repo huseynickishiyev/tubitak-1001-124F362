@@ -1,0 +1,1045 @@
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_0.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_0.bin' (SHA-256 hash bf95212356d5b30f0d05b65cdc383c9500ee3e1ab84f698ebce6373a01f82fb5)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500423, p-hat = 0.50042299999999995, p_u = 0.50171091483484132
+	Most Common Value Estimate = 0.995072 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4997037848052854, sigma-hat = 0.50000053718418358, p = 0.53415018024732375
+	Collision Test Estimate = 0.904683 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50042299999999995, P_1 = 0.49957700000000005, P_0,0 = 0.50032272697298086, P_0,1 = 0.49967727302701914, P_1,0 = 0.50052444472913027, P_1,1 = 0.49947555527086973, p_max = 3.1923948287899238e-39
+	Markov Test Estimate = 0.999067 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2166125265419474, sigma-hat = 1.0158102485756049, p = 0.030333691293029652
+	Compression Test Estimate = 0.840489 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 16, p-hat_max = 0.5275569070895033130242, p_u = 0.5288428648552971900187
+Literal LRS Estimate: u = 17, v = 40, p-hat = 0.5104778582076781, p_u = 0.51176549068347554
+	T-Tuple Test Estimate = 0.919089 / 1 bit(s)
+	LRS Test Estimate = 0.966445 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50077942316335988 (C = 499460) Plocal can't affect result (r = 18)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.997753 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50148441603673233 (C = 500196) Plocal can't affect result (r = 20)
+	Lag Prediction Test Estimate = 0.995723 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50053491361712055 (C = 499246) Plocal can't affect result (r = 21)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.998457 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50157043084016828 (C = 500274) Plocal can't affect result (r = 21)
+	LZ78Y Prediction Test Estimate = 0.995476 / 1 bit(s)
+
+H_original: 0.840489
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_0.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_1.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_1.bin' (SHA-256 hash 1549066ac79c4a48d2ae1f612612931fc9ed576785f3a1a6eb19b171b31b2181)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500606, p-hat = 0.500606, p_u = 0.50189391434979413
+	Most Common Value Estimate = 0.994546 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4997387767753807, sigma-hat = 0.5000005566994522, p = 0.53389316303855761
+	Collision Test Estimate = 0.905377 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.500606, P_1 = 0.499394, P_0,0 = 0.50009688277184605, P_0,1 = 0.49990311722815395, P_1,0 = 0.50111735423333081, P_1,1 = 0.49888264576666919, p_max = 3.3448442885837505e-39
+	Markov Test Estimate = 0.998541 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2199976211916477, sigma-hat = 1.0136794069495245, p = 0.026194468329489684
+	Compression Test Estimate = 0.875766 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 16, p-hat_max = 0.52662886552610954638, p_u = 0.5279149530124247480245
+Literal LRS Estimate: u = 17, v = 39, p-hat = 0.50680815358716325, p_u = 0.50809594948515258
+	T-Tuple Test Estimate = 0.921623 / 1 bit(s)
+	LRS Test Estimate = 0.976827 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50046840250511826 (C = 499149) Plocal can't affect result (r = 20)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.998649 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50103041551139671 (C = 499742) Plocal can't affect result (r = 20)
+	Lag Prediction Test Estimate = 0.997030 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50214191641304895 (C = 500853) Plocal can't affect result (r = 18)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.993833 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50121742503183941 (C = 499921) Plocal can't affect result (r = 22)
+	LZ78Y Prediction Test Estimate = 0.996492 / 1 bit(s)
+
+H_original: 0.875766
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_1.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_10.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_10.bin' (SHA-256 hash 36f2894bcba663128366bddf08cbaa704298fe1271a9aac31029d2cd3ea747c6)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500236, p-hat = 0.50023600000000001, p_u = 0.5015239151522688
+	Most Common Value Estimate = 0.995610 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4996388014707902, sigma-hat = 0.50000049444756467, p = 0.53462244454533125
+	Collision Test Estimate = 0.903408 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50023600000000001, P_1 = 0.49976399999999999, P_0,0 = 0.50068267914080378, P_0,1 = 0.49931732085919622, P_1,0 = 0.49978990083319325, P_1,1 = 0.50021009916680681, p_max = 3.4963991906298656e-39
+	Markov Test Estimate = 0.998042 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2166871446316128, sigma-hat = 1.0157702762049732, p = 0.030252119869448868
+	Compression Test Estimate = 0.841137 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5193896877616499541119, p_u = 0.5206766342837777505892
+Literal LRS Estimate: u = 16, v = 36, p-hat = 0.50002358116286427, p_u = 0.50131149645716422
+	T-Tuple Test Estimate = 0.941540 / 1 bit(s)
+	LRS Test Estimate = 0.996221 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50128645577250985 (C = 499967) Plocal can't affect result (r = 19)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.996293 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50100341544670179 (C = 499715) Plocal can't affect result (r = 19)
+	Lag Prediction Test Estimate = 0.997108 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50186491688007973 (C = 500576) Plocal can't affect result (r = 21)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.994629 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50164243194604619 (C = 500346) Plocal can't affect result (r = 18)
+	LZ78Y Prediction Test Estimate = 0.995269 / 1 bit(s)
+
+H_original: 0.841137
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_10.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_100.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_100.bin' (SHA-256 hash 0f415a346df242a8d5dc29cac2898a23ed58460e660203c127fb8703d8f1700d)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500026, p-hat = 0.50002599999999997, p_u = 0.50131391529399094
+	Most Common Value Estimate = 0.996214 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4989416971329614, sigma-hat = 0.49999950472960741, p = 0.5393334632903084
+	Collision Test Estimate = 0.890751 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50002599999999997, P_1 = 0.49997400000000003, P_0,0 = 0.49975401279133486, P_0,1 = 0.50024598720866509, P_1,0 = 0.50029901614687189, P_1,1 = 0.49970098385312811, p_max = 3.1492896110661746e-39
+	Markov Test Estimate = 0.999220 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2177573163806228, sigma-hat = 1.0145357440610945, p = 0.029038155524902298
+	Compression Test Estimate = 0.850984 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 16, p-hat_max = 0.52662886552610954638, p_u = 0.5279149530124247480245
+Literal LRS Estimate: u = 17, v = 36, p-hat = 0.50002245102092691, p_u = 0.50131036631536086
+	T-Tuple Test Estimate = 0.921623 / 1 bit(s)
+	LRS Test Estimate = 0.996224 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50170348160040867 (C = 500384) Plocal can't affect result (r = 21)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.995093 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50090641518329748 (C = 499618) Plocal can't affect result (r = 20)
+	Lag Prediction Test Estimate = 0.997387 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50167791697186648 (C = 500389) Plocal can't affect result (r = 21)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.995167 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50062341380903752 (C = 499327) Plocal can't affect result (r = 21)
+	LZ78Y Prediction Test Estimate = 0.998202 / 1 bit(s)
+
+H_original: 0.850984
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_100.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_101.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_101.bin' (SHA-256 hash 8bae9c861dd6f58208e52ebddf187c88590b26fb68769f532d24419aac390a90)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500157, p-hat = 0.50015699999999996, p_u = 0.50144491523224055
+	Most Common Value Estimate = 0.995837 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.5008440348617658, sigma-hat = 0.49999991281593542, p = 0.52442007753479569
+	Collision Test Estimate = 0.931205 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50015699999999996, P_1 = 0.49984300000000004, P_0,0 = 0.49977407049000711, P_0,1 = 0.50022592950999289, P_1,0 = 0.5005411699273572, P_1,1 = 0.4994588300726428, p_max = 3.2393038494682124e-39
+	Markov Test Estimate = 0.998902 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2203623831341854, sigma-hat = 1.0136883503263039, p = 0.025676139872370385
+	Compression Test Estimate = 0.880571 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5224650045813418186569, p_u = 0.5237516192593619779316
+Literal LRS Estimate: u = 16, v = 37, p-hat = 0.50054284064300103, p_u = 0.50183075517969766
+	T-Tuple Test Estimate = 0.933045 / 1 bit(s)
+	LRS Test Estimate = 0.994727 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50116944836487509 (C = 499850) Plocal can't affect result (r = 20)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.996630 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50143241603040711 (C = 500144) Plocal can't affect result (r = 19)
+	Lag Prediction Test Estimate = 0.995873 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50116491629868032 (C = 499876) Plocal can't affect result (r = 17)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.996643 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50098642088341694 (C = 499690) Plocal can't affect result (r = 22)
+	LZ78Y Prediction Test Estimate = 0.997157 / 1 bit(s)
+
+H_original: 0.880571
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_101.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_102.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_102.bin' (SHA-256 hash f4c4d94dc8ddcf58a8384a09a676c3dc19f9ad25049a169ae6db7d82700278a5)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500599, p-hat = 0.50059900000000002, p_u = 0.50188691437152133
+	Most Common Value Estimate = 0.994566 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4989441960771575, sigma-hat = 0.49999951001266085, p = 0.53931757715154727
+	Collision Test Estimate = 0.890793 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50059900000000002, P_1 = 0.49940099999999998, P_0,0 = 0.50108569933220004, P_0,1 = 0.49891430066779996, P_1,0 = 0.50011013215859035, P_1,1 = 0.49988986784140965, p_max = 3.8753867350529704e-39
+	Markov Test Estimate = 0.996882 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2169813474659525, sigma-hat = 1.0176494250024897, p = 0.029941516040376093
+	Compression Test Estimate = 0.843618 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5193896877616499541119, p_u = 0.5206766342837777505892
+Literal LRS Estimate: u = 16, v = 41, p-hat = 0.51886258802425067, p_u = 0.52014958652029042
+	T-Tuple Test Estimate = 0.941540 / 1 bit(s)
+	LRS Test Estimate = 0.943002 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50125845400616253 (C = 499939) Plocal can't affect result (r = 21)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.996373 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50124141588762139 (C = 499953) Plocal can't affect result (r = 19)
+	Lag Prediction Test Estimate = 0.996422 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50118491635032325 (C = 499896) Plocal can't affect result (r = 19)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.996585 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50107942258662064 (C = 499783) Plocal can't affect result (r = 19)
+	LZ78Y Prediction Test Estimate = 0.996889 / 1 bit(s)
+
+H_original: 0.843618
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_102.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_103.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_103.bin' (SHA-256 hash 09d6f56601110f6002be343a127ab0148023bbc624f9a3a76e532724c8183c8f)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500670, p-hat = 0.50066999999999995, p_u = 0.50195791413944135
+	Most Common Value Estimate = 0.994362 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.5010566964542518, sigma-hat = 0.49999950865530773, p = 0.52213711509973948
+	Collision Test Estimate = 0.937499 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.49933, P_1 = 0.50066999999999995, P_0,0 = 0.49876834958844851, P_0,1 = 0.50123165041155149, P_1,0 = 0.49989114564712417, P_1,1 = 0.50010885435287578, p_max = 3.3884780638195447e-39
+	Markov Test Estimate = 0.998395 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2160113141878464, sigma-hat = 1.016127348319162, p = 0.030979354047995789
+	Compression Test Estimate = 0.835425 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 16, p-hat_max = 0.52662886552610954638, p_u = 0.5279149530124247480245
+Literal LRS Estimate: u = 17, v = 37, p-hat = 0.5030480838468292, p_u = 0.50433597521077322
+	T-Tuple Test Estimate = 0.921623 / 1 bit(s)
+	LRS Test Estimate = 0.987543 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50165847885635162 (C = 500339) Plocal can't affect result (r = 17)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.995223 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50096341534395439 (C = 499675) Plocal can't affect result (r = 19)
+	Lag Prediction Test Estimate = 0.997223 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.5012049163999055 (C = 499916) Plocal = 0.55611431447117032 (r = 30)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.846547 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50164943205213763 (C = 500353) Plocal = 0.55611460465759854 (r = 30)
+	LZ78Y Prediction Test Estimate = 0.846546 / 1 bit(s)
+
+H_original: 0.835425
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_103.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_104.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_104.bin' (SHA-256 hash 04832a54f9703d6797a292d4c1f32560c81551a25c57473b1c283fb0396b4f01)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500595, p-hat = 0.50059500000000001, p_u = 0.50188291438382349
+	Most Common Value Estimate = 0.994577 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4994226327944573, sigma-hat = 0.50000029150403658, p = 0.53614903951702342
+	Collision Test Estimate = 0.899294 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50059500000000001, P_1 = 0.49940499999999999, P_0,0 = 0.50078706496681946, P_0,1 = 0.49921293503318054, P_1,0 = 0.50040147775853261, P_1,1 = 0.49959852224146739, p_max = 3.5927794694098355e-39
+	Markov Test Estimate = 0.997735 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.220187763959836, sigma-hat = 1.0130694821561226, p = 0.02592128224145851
+	Compression Test Estimate = 0.878287 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5212651963271891508711, p_u = 0.522551946283025370299
+Literal LRS Estimate: u = 16, v = 37, p-hat = 0.50011720851857266, p_u = 0.50140512377891855
+	T-Tuple Test Estimate = 0.936354 / 1 bit(s)
+	LRS Test Estimate = 0.995951 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50208650453307602 (C = 500767) Plocal can't affect result (r = 20)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.993992 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.5018894156092476 (C = 500601) Plocal can't affect result (r = 25)
+	Lag Prediction Test Estimate = 0.994559 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50075091476685496 (C = 499462) Plocal can't affect result (r = 18)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.997835 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50083041792637017 (C = 499534) Plocal can't affect result (r = 20)
+	LZ78Y Prediction Test Estimate = 0.997606 / 1 bit(s)
+
+H_original: 0.878287
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_104.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_105.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_105.bin' (SHA-256 hash 0e37f5b2d4f1e83133c8f330dcc0f92194995734fd67c566bb6d52ee2d9431f7)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500873, p-hat = 0.50087300000000001, p_u = 0.50216091333261559
+	Most Common Value Estimate = 0.993778 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.5011880643305568, sigma-hat = 0.49999921379757839, p = 0.52060082696299748
+	Collision Test Estimate = 0.941750 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.49912699999999999, P_1 = 0.50087300000000001, P_0,0 = 0.49827899167745221, P_0,1 = 0.50172100832254785, P_1,0 = 0.49997105054574714, P_1,1 = 0.50002894945425291, p_max = 3.6418619147541639e-39
+	Markov Test Estimate = 0.997582 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2137598703816588, sigma-hat = 1.0174757478983918, p = 0.033244258817622052
+	Compression Test Estimate = 0.818458 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5224650045813418186569, p_u = 0.5237516192593619779316
+Literal LRS Estimate: u = 16, v = 41, p-hat = 0.51886258802425067, p_u = 0.52014958652029042
+	T-Tuple Test Estimate = 0.933045 / 1 bit(s)
+	LRS Test Estimate = 0.943002 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50107244217002522 (C = 499753) Plocal can't affect result (r = 21)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.996909 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50158941600704199 (C = 500301) Plocal can't affect result (r = 20)
+	Lag Prediction Test Estimate = 0.995421 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50150191689368839 (C = 500213) Plocal can't affect result (r = 20)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.995673 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50142042845047718 (C = 500124) Plocal can't affect result (r = 21)
+	LZ78Y Prediction Test Estimate = 0.995907 / 1 bit(s)
+
+H_original: 0.818458
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_105.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_106.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_106.bin' (SHA-256 hash 91b01cdfb36693d7f239b2bcf76561451c0474fba7b2b836bc5a9bcc8d2054eb)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500723, p-hat = 0.50072300000000003, p_u = 0.50201091394927022
+	Most Common Value Estimate = 0.994209 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.5006726816240383, sigma-hat = 0.50000017266863062, p = 0.52611480337787697
+	Collision Test Estimate = 0.926550 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50072300000000003, P_1 = 0.49927699999999997, P_0,0 = 0.50086674841528833, P_0,1 = 0.49913325158471167, P_1,0 = 0.50057983844639353, P_1,1 = 0.49942016155360647, p_max = 3.66705163560319e-39
+	Markov Test Estimate = 0.997504 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2186986161820235, sigma-hat = 1.0140326637316881, p = 0.027903340344726302
+	Compression Test Estimate = 0.860570 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5200254334221195984256, p_u = 0.5213123153488957717272
+Literal LRS Estimate: u = 16, v = 38, p-hat = 0.50109040119668979, p_u = 0.50237831342982087
+	T-Tuple Test Estimate = 0.939780 / 1 bit(s)
+	LRS Test Estimate = 0.993154 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50164547806168147 (C = 500326) Plocal can't affect result (r = 22)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.995260 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50108641563360601 (C = 499798) Plocal can't affect result (r = 21)
+	Lag Prediction Test Estimate = 0.996869 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50227391605142757 (C = 500985) Plocal can't affect result (r = 19)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.993454 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50144542885680898 (C = 500149) Plocal can't affect result (r = 18)
+	LZ78Y Prediction Test Estimate = 0.995835 / 1 bit(s)
+
+H_original: 0.860570
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_106.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_107.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_107.bin' (SHA-256 hash 0b99c604143e18ee90beb6d977d4803e09e3732c28c62c12544610eef62bb484)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500205, p-hat = 0.50020500000000001, p_u = 0.50149291518748296
+	Most Common Value Estimate = 0.995699 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4995200911826752, sigma-hat = 0.50000039456963052, p = 0.53546892204553043
+	Collision Test Estimate = 0.901125 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.49979499999999999, P_1 = 0.50020500000000001, P_0,0 = 0.49999599835132075, P_0,1 = 0.50000400164867931, P_1,0 = 0.49959316680161137, P_1,1 = 0.50040683319838863, p_max = 3.2598560758223152e-39
+	Markov Test Estimate = 0.998831 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2170073627980367, sigma-hat = 1.0159852134714877, p = 0.029900946523320315
+	Compression Test Estimate = 0.843944 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5212651963271891508711, p_u = 0.522551946283025370299
+Literal LRS Estimate: u = 16, v = 40, p-hat = 0.5104778582076781, p_u = 0.51176549068347554
+	T-Tuple Test Estimate = 0.936354 / 1 bit(s)
+	LRS Test Estimate = 0.966445 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50153347117922564 (C = 500214) Plocal can't affect result (r = 21)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.995582 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50065241426391172 (C = 499364) Plocal can't affect result (r = 19)
+	Lag Prediction Test Estimate = 0.998119 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50096791567988308 (C = 499679) Plocal can't affect result (r = 19)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.997210 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50111242318027249 (C = 499816) Plocal can't affect result (r = 21)
+	LZ78Y Prediction Test Estimate = 0.996794 / 1 bit(s)
+
+H_original: 0.843944
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_107.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_108.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_108.bin' (SHA-256 hash d84626cef45ce7c954cc623b2fc409d9938eb17e83b2342953fd3c7c30623695)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500281, p-hat = 0.50028099999999998, p_u = 0.50156891509234203
+	Most Common Value Estimate = 0.995480 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4999750002499974, sigma-hat = 0.50000062436993387, p = 0.53210423630037418
+	Collision Test Estimate = 0.910219 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50028099999999998, P_1 = 0.49971900000000002, P_0,0 = 0.50098944591029027, P_0,1 = 0.49901055408970973, P_1,0 = 0.49957275989105876, P_1,1 = 0.50042724010894124, p_max = 3.7795776825653795e-39
+	Markov Test Estimate = 0.997164 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2230552929098346, sigma-hat = 1.0095959223394875, p = 0.020696119584138639
+	Compression Test Estimate = 0.932416 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5187428574580372764302, p_u = 0.5200298675600184550305
+Literal LRS Estimate: u = 16, v = 38, p-hat = 0.50111393558829065, p_u = 0.50240184768779317
+	T-Tuple Test Estimate = 0.943334 / 1 bit(s)
+	LRS Test Estimate = 0.993086 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50060941193282604 (C = 499290) Plocal can't affect result (r = 19)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.998243 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.5016994159150191 (C = 500411) Plocal can't affect result (r = 20)
+	Lag Prediction Test Estimate = 0.995105 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50117491632475941 (C = 499886) Plocal can't affect result (r = 18)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.996614 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50165743217307579 (C = 500361) Plocal can't affect result (r = 18)
+	LZ78Y Prediction Test Estimate = 0.995226 / 1 bit(s)
+
+H_original: 0.910219
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_108.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_109.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_109.bin' (SHA-256 hash 0b6089048c41c5f54a7e7e03ced3892bd370b86778f4e853a0697b2cda5e6c3f)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500206, p-hat = 0.50020600000000004, p_u = 0.50149391518642439
+	Most Common Value Estimate = 0.995696 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.5001100049502227, sigma-hat = 0.50000061292819398, p = 0.53103558628253245
+	Collision Test Estimate = 0.913120 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.49979400000000002, P_1 = 0.50020599999999993, P_0,0 = 0.49964485296912919, P_0,1 = 0.50035514703087081, P_1,0 = 0.49994402306249824, P_1,1 = 0.5000559769375017, p_max = 3.0524929647307785e-39
+	Markov Test Estimate = 0.999572 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2167274819672569, sigma-hat = 1.013743970324871, p = 0.030194000312537717
+	Compression Test Estimate = 0.841599 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5187428574580372764302, p_u = 0.5200298675600184550305
+Literal LRS Estimate: u = 16, v = 37, p-hat = 0.5004344255666453, p_u = 0.50172234037625241
+	T-Tuple Test Estimate = 0.943334 / 1 bit(s)
+	LRS Test Estimate = 0.995039 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50205150246878005 (C = 500732) Plocal can't affect result (r = 19)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.994093 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50112941571648006 (C = 499841) Plocal can't affect result (r = 18)
+	Lag Prediction Test Estimate = 0.996745 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50117291631958483 (C = 499884) Plocal can't affect result (r = 21)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.996620 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50060041333792937 (C = 499304) Plocal can't affect result (r = 21)
+	LZ78Y Prediction Test Estimate = 0.998269 / 1 bit(s)
+
+H_original: 0.841599
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_109.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_11.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_11.bin' (SHA-256 hash 9d34984b1035f93524f83d83fd8f66b503183098c734f0f8976d21e3e4952af7)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500289, p-hat = 0.50028899999999998, p_u = 0.50157691508059632
+	Most Common Value Estimate = 0.995457 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.500170011900833, sigma-hat = 0.50000059614084191, p = 0.53054859791948883
+	Collision Test Estimate = 0.914443 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50028899999999998, P_1 = 0.49971100000000002, P_0,0 = 0.49938635346040683, P_0,1 = 0.50061364653959317, P_1,0 = 0.50119168879612419, P_1,1 = 0.49880831120387581, p_max = 3.6951830066583497e-39
+	Markov Test Estimate = 0.997418 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2156417059565108, sigma-hat = 1.0154179217565076, p = 0.031360818153694958
+	Compression Test Estimate = 0.832482 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 16, p-hat_max = 0.5275569070895033130242, p_u = 0.5288428648552971900187
+Literal LRS Estimate: u = 17, v = 37, p-hat = 0.50058933575446241, p_u = 0.5018772501555655
+	T-Tuple Test Estimate = 0.919089 / 1 bit(s)
+	LRS Test Estimate = 0.994594 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50106244152862434 (C = 499743) Plocal can't affect result (r = 19)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.996938 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50164941596457524 (C = 500361) Plocal can't affect result (r = 20)
+	Lag Prediction Test Estimate = 0.995249 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50136891672875095 (C = 500080) Plocal can't affect result (r = 21)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.996056 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50212543867412307 (C = 500829) Plocal can't affect result (r = 20)
+	LZ78Y Prediction Test Estimate = 0.993880 / 1 bit(s)
+
+H_original: 0.832482
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_11.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_110.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_110.bin' (SHA-256 hash d8edb4cf8ca69fa4b124f225b754a3ec06d09def23240bcdacf280de0c6dd91d)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 501008, p-hat = 0.50100800000000001, p_u = 0.50229591267852092
+	Most Common Value Estimate = 0.993391 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4998312613898563, sigma-hat = 0.50000059648623174, p = 0.53320424807973388
+	Collision Test Estimate = 0.907240 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50100800000000001, P_1 = 0.49899199999999999, P_0,0 = 0.50100098401818738, P_0,1 = 0.49899901598181262, P_1,0 = 0.50101404431333574, P_1,1 = 0.49898595568666426, p_max = 3.7961570991801417e-39
+	Markov Test Estimate = 0.997115 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.220349657594185, sigma-hat = 1.0151394401956089, p = 0.02570786321452756
+	Compression Test Estimate = 0.880274 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 16, p-hat_max = 0.52662886552610954638, p_u = 0.5279149530124247480245
+Literal LRS Estimate: u = 17, v = 40, p-hat = 0.51020649795350426, p_u = 0.51149414489030687
+	T-Tuple Test Estimate = 0.921623 / 1 bit(s)
+	LRS Test Estimate = 0.967210 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50094843418023638 (C = 499629) Plocal can't affect result (r = 19)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.997266 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50100641545407565 (C = 499718) Plocal can't affect result (r = 19)
+	Lag Prediction Test Estimate = 0.997099 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50192291681500834 (C = 500634) Plocal can't affect result (r = 20)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.994462 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.5021324387627959 (C = 500836) Plocal can't affect result (r = 19)
+	LZ78Y Prediction Test Estimate = 0.993860 / 1 bit(s)
+
+H_original: 0.880274
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_110.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_111.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_111.bin' (SHA-256 hash adb010d8575cd179f29152d372ed514ca64c6c65d3e575c6011e6829432e03fb)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500657, p-hat = 0.50065700000000002, p_u = 0.5019449141838771
+	Most Common Value Estimate = 0.994399 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.5006376626039639, sigma-hat = 0.50000021854631815, p = 0.52644777721347147
+	Collision Test Estimate = 0.925638 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.49934299999999998, P_1 = 0.50065700000000002, P_0,0 = 0.49887752506793925, P_0,1 = 0.50112247493206075, P_1,0 = 0.49980825157393499, P_1,1 = 0.50019174842606495, p_max = 3.3069207570207507e-39
+	Markov Test Estimate = 0.998670 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.217467450319031, sigma-hat = 1.0155662335325977, p = 0.029379752734470133
+	Compression Test Estimate = 0.848172 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5206504808365454151087, p_u = 0.5219372972201817839633
+Literal LRS Estimate: u = 16, v = 39, p-hat = 0.5107640428248692, p_u = 0.51205165963838661
+	T-Tuple Test Estimate = 0.938052 / 1 bit(s)
+	LRS Test Estimate = 0.965639 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50116044779213564 (C = 499841) Plocal can't affect result (r = 19)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.996656 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50092341523296424 (C = 499635) Plocal can't affect result (r = 17)
+	Lag Prediction Test Estimate = 0.997338 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50242591552382043 (C = 501137) Plocal can't affect result (r = 21)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.993017 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50168343256384784 (C = 500387) Plocal can't affect result (r = 23)
+	LZ78Y Prediction Test Estimate = 0.995151 / 1 bit(s)
+
+H_original: 0.848172
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_111.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_112.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_112.bin' (SHA-256 hash fb9fb58d3dd31d97bbb3389c8c85b5e44da1d038041173dd3e9d7f88b17f9727)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500774, p-hat = 0.50077400000000005, p_u = 0.50206191375261311
+	Most Common Value Estimate = 0.994063 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.49923773249159, sigma-hat = 0.50000004375778639, p = 0.53740540787548119
+	Collision Test Estimate = 0.895917 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50077400000000005, P_1 = 0.49922599999999995, P_0,0 = 0.50060805993933377, P_0,1 = 0.49939194006066623, P_1,0 = 0.50094145737601803, P_1,1 = 0.49905854262398197, p_max = 3.4345286816196946e-39
+	Markov Test Estimate = 0.998243 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2224362882847615, sigma-hat = 1.0122027253492067, p = 0.022144920261842671
+	Compression Test Estimate = 0.916147 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5206504808365454151087, p_u = 0.5219372972201817839633
+Literal LRS Estimate: u = 16, v = 35, p-hat = 0.50187601940432602, p_u = 0.5031639256345225
+	T-Tuple Test Estimate = 0.938052 / 1 bit(s)
+	LRS Test Estimate = 0.990900 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50159447493572074 (C = 500275) Plocal can't affect result (r = 19)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.995407 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50190941556624258 (C = 500621) Plocal can't affect result (r = 20)
+	Lag Prediction Test Estimate = 0.994501 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50190191684057017 (C = 500613) Plocal can't affect result (r = 25)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.994523 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50149542965981242 (C = 500199) Plocal can't affect result (r = 19)
+	LZ78Y Prediction Test Estimate = 0.995692 / 1 bit(s)
+
+H_original: 0.895917
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_112.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_113.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_113.bin' (SHA-256 hash f4b393b7d42ffc753c83e9c7b9e19500eac11c94acf1fa218dde086324c584b7)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500676, p-hat = 0.50067600000000001, p_u = 0.50196391411863894
+	Most Common Value Estimate = 0.994344 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4997375275596063, sigma-hat = 0.50000055604368054, p = 0.53390235736308322
+	Collision Test Estimate = 0.905352 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.49932399999999999, P_1 = 0.50067600000000001, P_0,0 = 0.49942322019370189, P_0,1 = 0.50057677980629811, P_1,0 = 0.4992260448394667, P_1,1 = 0.50077395516053325, p_max = 3.5814337959399552e-39
+	Markov Test Estimate = 0.997771 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2144545457738554, sigma-hat = 1.0173464977942925, p = 0.032570161442830203
+	Compression Test Estimate = 0.823384 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5200254334221195984256, p_u = 0.5213123153488957717272
+Literal LRS Estimate: u = 16, v = 39, p-hat = 0.5107640428248692, p_u = 0.51205165963838661
+	T-Tuple Test Estimate = 0.939780 / 1 bit(s)
+	LRS Test Estimate = 0.965639 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50038539690757711 (C = 499066) Plocal can't affect result (r = 21)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.998888 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.5011414157379076 (C = 499853) Plocal can't affect result (r = 21)
+	Lag Prediction Test Estimate = 0.996710 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50134991669774953 (C = 500061) Plocal can't affect result (r = 19)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.996110 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50179743423612089 (C = 500501) Plocal can't affect result (r = 19)
+	LZ78Y Prediction Test Estimate = 0.994823 / 1 bit(s)
+
+H_original: 0.823384
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_113.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_114.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_114.bin' (SHA-256 hash b7a61bef3ce488bfbe9eb258b84de4ca20ec63b524046a3d3c9da95ab31f7a71)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500109, p-hat = 0.50010900000000003, p_u = 0.50139691526512886
+	Most Common Value Estimate = 0.995975 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.5000437507656383, sigma-hat = 0.50000062309797788, p = 0.53156454859763502
+	Collision Test Estimate = 0.911683 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50010900000000003, P_1 = 0.49989099999999997, P_0,0 = 0.49984403368872321, P_0,1 = 0.50015596631127679, P_1,0 = 0.50037308133173031, P_1,1 = 0.49962691866826969, p_max = 3.1429089390744668e-39
+	Markov Test Estimate = 0.999243 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2150428670376625, sigma-hat = 1.0175032413155649, p = 0.03198586879740728
+	Compression Test Estimate = 0.827737 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 16, p-hat_max = 0.52662886552610954638, p_u = 0.5279149530124247480245
+Literal LRS Estimate: u = 17, v = 42, p-hat = 0.52723267936823404, p_u = 0.52851868296070004
+	T-Tuple Test Estimate = 0.921623 / 1 bit(s)
+	LRS Test Estimate = 0.919974 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50026338861543407 (C = 498944) Plocal can't affect result (r = 19)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.999240 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50070941449915474 (C = 499421) Plocal can't affect result (r = 19)
+	Lag Prediction Test Estimate = 0.997955 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50066491433788829 (C = 499376) Plocal can't affect result (r = 20)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.998083 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50115542394540069 (C = 499859) Plocal can't affect result (r = 19)
+	LZ78Y Prediction Test Estimate = 0.996670 / 1 bit(s)
+
+H_original: 0.827737
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_114.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_115.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_115.bin' (SHA-256 hash 3839f606cf68703921cfc7de7c4d9de79e8f242602b3ec1a466ff05e72482f7b)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500044, p-hat = 0.50004400000000004, p_u = 0.5013319152907455
+	Most Common Value Estimate = 0.996162 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.5000475009500192, sigma-hat = 0.50000062275732871, p = 0.5315348522758242
+	Collision Test Estimate = 0.911764 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50004400000000004, P_1 = 0.49995599999999996, P_0,0 = 0.50007099389452503, P_0,1 = 0.49992900610547497, P_1,0 = 0.50001600140812397, P_1,1 = 0.49998399859187603, p_max = 2.9924686444791851e-39
+	Markov Test Estimate = 0.999796 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2210402931909847, sigma-hat = 1.0129927611978025, p = 0.024644881506943772
+	Compression Test Estimate = 0.890428 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5212651963271891508711, p_u = 0.522551946283025370299
+Literal LRS Estimate: u = 16, v = 39, p-hat = 0.50443736138056083, p_u = 0.50572522595673663
+	T-Tuple Test Estimate = 0.936354 / 1 bit(s)
+	LRS Test Estimate = 0.983574 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.501288455898523 (C = 499969) Plocal can't affect result (r = 23)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.996287 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50103541552296504 (C = 499747) Plocal can't affect result (r = 21)
+	Lag Prediction Test Estimate = 0.997016 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50094291558705961 (C = 499654) Plocal can't affect result (r = 22)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.997282 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50029640685503862 (C = 499000) Plocal can't affect result (r = 22)
+	LZ78Y Prediction Test Estimate = 0.999145 / 1 bit(s)
+
+H_original: 0.890428
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_115.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_116.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_116.bin' (SHA-256 hash db979d291539e7992cfc53da695e401aa503ec436c3d3a0fdde63c88472cb8f8)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500088, p-hat = 0.50008799999999998, p_u = 0.50137591527578496
+	Most Common Value Estimate = 0.996035 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4988767526531879, sigma-hat = 0.49999936303383763, p = 0.53974393748490967
+	Collision Test Estimate = 0.889653 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50008799999999998, P_1 = 0.49991200000000002, P_0,0 = 0.50044292293140991, P_0,1 = 0.49955707706859009, P_1,0 = 0.49973395317575892, P_1,1 = 0.50026604682424103, p_max = 3.2890807672685818e-39
+	Markov Test Estimate = 0.998731 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2161104765879598, sigma-hat = 1.0160015873356889, p = 0.030873730273334177
+	Compression Test Estimate = 0.836246 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 16, p-hat_max = 0.52662886552610954638, p_u = 0.5279149530124247480245
+Literal LRS Estimate: u = 17, v = 39, p-hat = 0.50125078696746395, p_u = 0.50253869823338526
+	T-Tuple Test Estimate = 0.921623 / 1 bit(s)
+	LRS Test Estimate = 0.992693 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50120345052479132 (C = 499884) Plocal can't affect result (r = 24)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.996532 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50252141325399291 (C = 501233) Plocal can't affect result (r = 20)
+	Lag Prediction Test Estimate = 0.992743 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50145991685144764 (C = 500171) Plocal can't affect result (r = 23)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.995794 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50140442818873521 (C = 500108) Plocal can't affect result (r = 23)
+	LZ78Y Prediction Test Estimate = 0.995953 / 1 bit(s)
+
+H_original: 0.836246
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_116.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_117.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_117.bin' (SHA-256 hash 7c40305629fc026a4aa3e8328ad544ae49aaf2bfabd46cea279fb9f367e0f161)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500622, p-hat = 0.50062200000000001, p_u = 0.50190991429918419
+	Most Common Value Estimate = 0.994500 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4998662570215062, sigma-hat = 0.50000060708115435, p = 0.53293982288972719
+	Collision Test Estimate = 0.907955 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50062200000000001, P_1 = 0.49937799999999999, P_0,0 = 0.50026167447695069, P_0,1 = 0.49973832552304931, P_1,0 = 0.50098222385091828, P_1,1 = 0.49901777614908172, p_max = 3.2199262166252796e-39
+	Markov Test Estimate = 0.998970 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2185872927773715, sigma-hat = 1.014090281562571, p = 0.02804156462933749
+	Compression Test Estimate = 0.859382 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5206504808365454151087, p_u = 0.5219372972201817839633
+Literal LRS Estimate: u = 16, v = 37, p-hat = 0.50526854731711257, p_u = 0.50655639111200845
+	T-Tuple Test Estimate = 0.938052 / 1 bit(s)
+	LRS Test Estimate = 0.981205 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50187549199264925 (C = 500556) Plocal can't affect result (r = 22)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.994599 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50141641602565823 (C = 500128) Plocal can't affect result (r = 21)
+	Lag Prediction Test Estimate = 0.995919 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50193191680335791 (C = 500643) Plocal can't affect result (r = 20)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.994436 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50146942924385796 (C = 500173) Plocal can't affect result (r = 21)
+	LZ78Y Prediction Test Estimate = 0.995766 / 1 bit(s)
+
+H_original: 0.859382
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_117.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_118.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_118.bin' (SHA-256 hash 7552815a798e8c4b251efe8020b8942a8a069e00e502f40f69b53e592c221918)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500930, p-hat = 0.50092999999999999, p_u = 0.50221791306789443
+	Most Common Value Estimate = 0.993615 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4994563682399078, sigma-hat = 0.50000032932931626, p = 0.53591506332761585
+	Collision Test Estimate = 0.899924 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.49907000000000001, P_1 = 0.50092999999999999, P_0,0 = 0.49870258421180236, P_0,1 = 0.50129741578819764, P_1,0 = 0.49943505080550177, P_1,1 = 0.50056494919449823, p_max = 3.3982271708101408e-39
+	Markov Test Estimate = 0.998363 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2195573224189271, sigma-hat = 1.0145108211945841, p = 0.026802101998356642
+	Compression Test Estimate = 0.870252 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 16, p-hat_max = 0.5275569070895033130242, p_u = 0.5288428648552971900187
+Literal LRS Estimate: u = 17, v = 38, p-hat = 0.50021586700439347, p_u = 0.50150378218009573
+	T-Tuple Test Estimate = 0.919089 / 1 bit(s)
+	LRS Test Estimate = 0.995668 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50147446752765468 (C = 500155) Plocal can't affect result (r = 21)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.995752 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50195541545951083 (C = 500667) Plocal can't affect result (r = 18)
+	Lag Prediction Test Estimate = 0.994369 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50191691682254358 (C = 500628) Plocal can't affect result (r = 19)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.994480 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50206343787771501 (C = 500767) Plocal can't affect result (r = 19)
+	LZ78Y Prediction Test Estimate = 0.994058 / 1 bit(s)
+
+H_original: 0.870252
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_118.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_119.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_119.bin' (SHA-256 hash 4af27c06f6903efba339b7d0d8d07e2b08c66d1d327a85a9c979e3e3d8ccbe84)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500345, p-hat = 0.50034500000000004, p_u = 0.50163291498914397
+	Most Common Value Estimate = 0.995296 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4995813201288786, sigma-hat = 0.50000044960341683, p = 0.53503486151764112
+	Collision Test Estimate = 0.902295 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50034500000000004, P_1 = 0.49965499999999996, P_0,0 = 0.50109724509537434, P_0,1 = 0.49890275490462566, P_1,0 = 0.49959271897609353, P_1,1 = 0.50040728102390641, p_max = 3.8847715365681532e-39
+	Markov Test Estimate = 0.996854 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2182464438367733, sigma-hat = 1.0138027620818588, p = 0.028454247855989045
+	Compression Test Estimate = 0.855869 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 16, p-hat_max = 0.5293426435735436585972, p_u = 0.530628339190238440537
+Literal LRS Estimate: u = 17, v = 35, p-hat = 0.5017285010667627, p_u = 0.50301640866662189
+	T-Tuple Test Estimate = 0.914226 / 1 bit(s)
+	LRS Test Estimate = 0.991323 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50204750223245864 (C = 500728) Plocal can't affect result (r = 20)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.994104 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.5011114156829477 (C = 499823) Plocal can't affect result (r = 22)
+	Lag Prediction Test Estimate = 0.996797 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50102591588283352 (C = 499737) Plocal can't affect result (r = 20)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.997043 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50126242580798042 (C = 499966) Plocal can't affect result (r = 19)
+	LZ78Y Prediction Test Estimate = 0.996362 / 1 bit(s)
+
+H_original: 0.855869
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_119.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_12.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_12.bin' (SHA-256 hash 857d563fa7230f20e40410028a0543cd4b179f3120ef46b13551e4691ff51774)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500412, p-hat = 0.50041199999999997, p_u = 0.50169991485850041
+	Most Common Value Estimate = 0.995103 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4996537976028295, sigma-hat = 0.5000005050589823, p = 0.53451402855093855
+	Collision Test Estimate = 0.903700 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.49958799999999998, P_1 = 0.50041200000000008, P_0,0 = 0.49966272140788293, P_0,1 = 0.50033727859211707, P_1,0 = 0.49951440013428933, P_1,1 = 0.50048559986571073, p_max = 3.3270488685420556e-39
+	Markov Test Estimate = 0.998601 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2174228580763682, sigma-hat = 1.0156449130836906, p = 0.029431172699268204
+	Compression Test Estimate = 0.847752 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5206504808365454151087, p_u = 0.5219372972201817839633
+Literal LRS Estimate: u = 16, v = 38, p-hat = 0.50033203163513984, p_u = 0.50161994664689957
+	T-Tuple Test Estimate = 0.938052 / 1 bit(s)
+	LRS Test Estimate = 0.995333 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.5024715268237514 (C = 501152) Plocal can't affect result (r = 22)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.992886 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50144941603400761 (C = 500161) Plocal can't affect result (r = 18)
+	Lag Prediction Test Estimate = 0.995824 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50130891662451493 (C = 500020) Plocal can't affect result (r = 21)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.996228 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50102542160308861 (C = 499729) Plocal can't affect result (r = 22)
+	LZ78Y Prediction Test Estimate = 0.997044 / 1 bit(s)
+
+H_original: 0.847752
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_12.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_120.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_120.bin' (SHA-256 hash 6be9bf185df480d5b8b61f1756f4ff96e8c28940d953a313d83f4549e8af2dc4)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500182, p-hat = 0.50018200000000002, p_u = 0.50146991521041051
+	Most Common Value Estimate = 0.995765 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.499760022797834, sigma-hat = 0.50000056735266984, p = 0.53373614276796366
+	Collision Test Estimate = 0.905801 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.49981799999999998, P_1 = 0.50018200000000002, P_0,0 = 0.50089632626275959, P_0,1 = 0.49910367373724041, P_1,0 = 0.49874145559307531, P_1,1 = 0.50125854440692463, p_max = 4.0455280376670482e-39
+	Markov Test Estimate = 0.996397 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2141838875219912, sigma-hat = 1.0168094291692378, p = 0.032831384522898133
+	Compression Test Estimate = 0.821463 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 16, p-hat_max = 0.5284610884248388540385, p_u = 0.5297469155184756361976
+Literal LRS Estimate: u = 17, v = 36, p-hat = 0.49996802892621972, p_u = 0.50125594421931907
+	T-Tuple Test Estimate = 0.916625 / 1 bit(s)
+	LRS Test Estimate = 0.996381 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.5019244949253312 (C = 500605) Plocal can't affect result (r = 20)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.994458 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50145541603492294 (C = 500167) Plocal can't affect result (r = 23)
+	Lag Prediction Test Estimate = 0.995807 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50206791657650973 (C = 500779) Plocal can't affect result (r = 19)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.994046 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50209843832973444 (C = 500802) Plocal can't affect result (r = 24)
+	LZ78Y Prediction Test Estimate = 0.993958 / 1 bit(s)
+
+H_original: 0.821463
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_120.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_121.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_121.bin' (SHA-256 hash 381c9da56ace8e8e33202da4e31b8194cbe583a2f3621fea6034a2950fd5b8b4)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500580, p-hat = 0.50058000000000002, p_u = 0.50186791442922263
+	Most Common Value Estimate = 0.994620 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.497984122781161, sigma-hat = 0.49999656071589876, p = 0.54500786563343884
+	Collision Test Estimate = 0.875651 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50058000000000002, P_1 = 0.49941999999999998, P_0,0 = 0.50108774039662074, P_0,1 = 0.49891225960337926, P_1,0 = 0.50007208361699573, P_1,1 = 0.49992791638300427, p_max = 3.8772448500107066e-39
+	Markov Test Estimate = 0.996876 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2187341012525792, sigma-hat = 1.014864484078037, p = 0.027865737175285066
+	Compression Test Estimate = 0.860894 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 16, p-hat_max = 0.52662886552610954638, p_u = 0.5279149530124247480245
+Literal LRS Estimate: u = 17, v = 40, p-hat = 0.51020649795350426, p_u = 0.51149414489030687
+	T-Tuple Test Estimate = 0.921623 / 1 bit(s)
+	LRS Test Estimate = 0.967210 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50065841518513676 (C = 499339) Plocal can't affect result (r = 19)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.998101 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50223441457859475 (C = 500946) Plocal can't affect result (r = 23)
+	Lag Prediction Test Estimate = 0.993567 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50107091602835607 (C = 499782) Plocal can't affect result (r = 19)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.996913 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50146142911517133 (C = 500165) Plocal can't affect result (r = 18)
+	LZ78Y Prediction Test Estimate = 0.995789 / 1 bit(s)
+
+H_original: 0.860894
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_121.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_122.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_122.bin' (SHA-256 hash 65e8ebf0b83730ef102c6921de0b2ff633971696951dbf7fc61e41523592d6af)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500484, p-hat = 0.50048400000000004, p_u = 0.5017719146923284
+	Most Common Value Estimate = 0.994896 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4998975040998359, sigma-hat = 0.50000061447075028, p = 0.53270190775960424
+	Collision Test Estimate = 0.908600 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50048400000000004, P_1 = 0.49951599999999996, P_0,0 = 0.50090612468355566, P_0,1 = 0.49909387531644434, P_1,0 = 0.50006206007415177, P_1,1 = 0.49993793992584823, p_max = 3.7020784989443372e-39
+	Markov Test Estimate = 0.997397 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2180297358926495, sigma-hat = 1.0142131432342312, p = 0.028715981052740869
+	Compression Test Estimate = 0.853667 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5200254334221195984256, p_u = 0.5213123153488957717272
+Literal LRS Estimate: u = 16, v = 37, p-hat = 0.50002192861822603, p_u = 0.50130984391271971
+	T-Tuple Test Estimate = 0.939780 / 1 bit(s)
+	LRS Test Estimate = 0.996226 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50143946535299255 (C = 500120) Plocal can't affect result (r = 17)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.995853 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50137141600523172 (C = 500083) Plocal can't affect result (r = 25)
+	Lag Prediction Test Estimate = 0.996048 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50079091495339212 (C = 499502) Plocal can't affect result (r = 19)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.997720 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50140742823791229 (C = 500111) Plocal can't affect result (r = 18)
+	LZ78Y Prediction Test Estimate = 0.995945 / 1 bit(s)
+
+H_original: 0.853667
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_122.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_123.bin ---
+Opening file: '/Users/kishiyev/Desktop/cryptography/entropy/data/sequence_123.bin' (SHA-256 hash b3bb46ee8351c857a67cbf9ca21bd2ff93f0b1e9697e98ea0f914a16748c92f5)
+Loaded 1000000 samples of 2 distinct 1-bit-wide symbols
+
+Running non-IID tests...
+
+Running Most Common Value Estimate...
+Literal MCV Estimate: mode = 500133, p-hat = 0.50013300000000005, p_u = 0.50142091525016841
+	Most Common Value Estimate = 0.995906 / 1 bit(s)
+
+Running Entropic Statistic Estimates (bit strings only)...
+Literal Collision Estimate: X-bar = 2.4996438007583919, sigma-hat = 0.50000049803404745, p = 0.53458632720883392
+	Collision Test Estimate = 0.903505 / 1 bit(s)
+Literal Markov Estimate: P_0 = 0.50013300000000005, P_1 = 0.49986699999999995, P_0,0 = 0.5007078131373317, P_0,1 = 0.4992921868626683, P_1,0 = 0.49955688213064675, P_1,1 = 0.50044311786935325, p_max = 3.5180360118444905e-39
+	Markov Test Estimate = 0.997972 / 1 bit(s)
+Literal Compression Estimate: X-bar = 5.2145407134956114, sigma-hat = 1.0176851092794303, p = 0.032487448491979709
+	Compression Test Estimate = 0.823996 / 1 bit(s)
+
+Running Tuple Estimates...
+Literal t-Tuple Estimate: t = 15, p-hat_max = 0.5230507414148808376098, p_u = 0.5243372873493601371564
+Literal LRS Estimate: u = 16, v = 37, p-hat = 0.50112520398668803, p_u = 0.5024131160211982
+	T-Tuple Test Estimate = 0.931433 / 1 bit(s)
+	LRS Test Estimate = 0.993054 / 1 bit(s)
+
+Running Predictor Estimates...
+Literal MultiMCW Prediction Estimate: N = 999937, Pglobal' = 0.50194649623802146 (C = 500627) Plocal can't affect result (r = 19)
+	Multi Most Common in Window (MultiMCW) Prediction Test Estimate = 0.994395 / 1 bit(s)
+Literal Lag Prediction Estimate: N = 999999, Pglobal' = 0.50073641460474361 (C = 499448) Plocal can't affect result (r = 21)
+	Lag Prediction Test Estimate = 0.997877 / 1 bit(s)
+Literal MultiMMC Prediction Estimate: N = 999998, Pglobal' = 0.50104991596174375 (C = 499761) Plocal can't affect result (r = 19)
+	Multi Markov Model with Counting (MultiMMC) Prediction Test Estimate = 0.996974 / 1 bit(s)
+Literal LZ78Y Prediction Estimate: N = 999983, Pglobal' = 0.50160543138108371 (C = 500309) Plocal can't affect result (r = 20)
+	LZ78Y Prediction Test Estimate = 0.995375 / 1 bit(s)
+
+H_original: 0.823996
+--- END /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_123.bin ---
+--- START /Users/kishiyev/Desktop/cryptography/entropy/data/sequence_124.bin ---
