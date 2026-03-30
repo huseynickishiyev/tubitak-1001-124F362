@@ -40,22 +40,30 @@ Disclaimer: The "Authors" named throughout this repository (Huseyn Kishiyev, Osm
 
 ```
 .
-├── data/                          # Generated binary sequences (created at runtime)
-├── nist_entropy/
-│   └── cpp/
-│       ├── ea_non_iid             # NIST compiled binary (built from source)
-│       └── Makefile
-├── runs_entropy_estimation.cpp    # Runs / t-Runs / Collision estimators
-├── index_value_coincidence.cpp    # IVC estimator (Aslan et al.)
-├── generate_data.cpp              # Dataset 1: AES-256-CBC full-entropy binary
-├── aes_full.cpp                   # Dataset 1 (alt): AES-128-CBC unpacked binary
-├── gen_biased_binary.cpp          # Dataset 2: Biased binary (P(1)=0.7)
-├── gen_4bit.cpp                   # Dataset 3: 4-bit near-uniform biased
-├── gen_8bit.cpp                   # Dataset 4: 8-bit near-uniform biased
-├── gen_noniid.cpp                 # Dataset 5: Non-IID parity-constrained binary
-├── run_nist.sh                    # Pipeline: run NIST ea_non_iid over all sequences
-├── analyze_results.py             # Post-analysis: parse & correlate NIST output
-└── results.txt                    # NIST tool output (created by run_nist.sh)
+├── data-generation/
+│   ├── aes_full.cpp
+│   ├── generate_data.cpp
+│   ├── gen_4bit.cpp
+│   ├── gen_8bit.cpp
+│   ├── gen_biased_binary.cpp
+│   ├── gen_noniid.cpp
+│   ├── data/                          # AES-256-CBC sequences (sequence_0.bin … sequence_199.bin)
+│   ├── output_aes_cbc_unpacked/       # AES-128-CBC sequences (sequence_0000.bin … sequence_0199.bin)
+│   ├── output_4bit_unpacked/
+│   ├── output_8bit/
+│   ├── output_biased_binary_unpacked/
+│   └── output_noniid_unpacked/
+├── index-value-coincidence/
+│   └── index_value_coincidence.cpp
+├── runs-entropy-estimation-implementation/
+│   └── runs_entropy_estimation.cpp
+├── shuffle-algorithms-comparison/
+│   ├── shuffle_algorithms_comparison.cpp
+│   └── explanation.md
+├── analyze_results.py
+├── run_nist.sh
+├── results.txt                        # NIST tool output (created by run_nist.sh)
+└── LICENSE
 ```
 
 ---
