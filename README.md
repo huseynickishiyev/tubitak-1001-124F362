@@ -1,6 +1,6 @@
 # Entropy Estimation for RNGs — Research Repository
 
-**Authors:** Huseyn Kishiyev, Osman Furkan Atakul
+**Authors:** Huseyn Kishiyev, Osman Furkan Atakul, Özge Baran Yelim
 
 This repository contains C++ implementations of novel entropy estimators for random number generators (RNGs), a full suite of synthetic dataset generators for NIST SP 800-90B evaluation, and Python tooling for post-analysis. The work accompanies and validates the algorithms described in the following papers:
 
