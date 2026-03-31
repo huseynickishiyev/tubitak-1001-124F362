@@ -460,6 +460,72 @@ E1    1.000 0.312 0.284 ...
 
 ---
 
+## IID Assessment Support
+
+The pipeline now supports both IID and Non-IID assessment modes through a unified `run_nist.sh` script, with a dedicated analysis script `analyze_iid_results.py` for IID results.
+
+### Updated `run_nist.sh`
+
+The script accepts the following flags:
+
+| Flag | Default | Description |
+|---|---|---|
+| *(none)* | — | Runs Non-IID assessment, output → `results.txt` |
+| `--iid` | — | Runs IID assessment, output → `results_iid.txt` |
+| `--bits <n>` | `1` | Bits per symbol — use `4` or `8` for multi-symbol datasets |
+
+The two modes write to separate output files so they never overwrite each other. The appropriate NIST binary (`ea_non_iid` or `ea_iid`) is selected automatically, and if missing, the script will attempt to build it via `make`.
+
+**Examples:**
+
+```bash
+# Non-IID (unchanged behaviour)
+./run_nist.sh
+
+# IID assessment on binary sequences
+./run_nist.sh --iid
+
+# IID assessment on 4-bit symbol sequences (gen_4bit output)
+./run_nist.sh --iid --bits 4
+
+# IID assessment on 8-bit symbol sequences (gen_8bit output)
+./run_nist.sh --iid --bits 8
+
+# Override tool path at runtime
+NIST_IID_TOOL=/custom/path/ea_iid ./run_nist.sh --iid
+```
+
+### New `analyze_results_iid.py`
+
+A dedicated analysis script for `results_iid.txt`. Produces three sections of output:
+
+**1. Entropy Estimate Summary** — min, mean, max, and std across all sequences for each of the 6 IID estimators (E1–E6), plus the final conservative min-entropy bound and which estimator is the limiting one.
+
+**2. IID Permutation Test Pass Rates** — the NIST IID suite runs 19 permutation tests per sequence to assess whether the data is consistent with the IID assumption. This section reports the pass rate per test across all sequences with color-coded verdicts:
+
+| Color | Verdict | Condition |
+|---|---|---|
+| Green | `OK` | Pass rate ≥ 99% |
+| Yellow | `WARN` | Pass rate 95–99% |
+| Red | `FAIL` | Pass rate < 95% |
+
+An overall IID verdict (PASS / FAIL) is printed at the end.
+
+**3. Pearson & Spearman Correlation Matrices** — same format as `analyze_results.py` but scoped to E1–E6.
+
+**Run:**
+
+```bash
+# First generate results
+./run_nist.sh --iid
+
+# Then analyze
+python3 analyze_results_iid.py
+```
+
+> **Note:** `analyze_results.py` (Non-IID, E1–E10) and `analyze_results_iid.py` (IID, E1–E6) are independent scripts. Run whichever corresponds to the assessment mode you used.
+---
+
 ## End-to-End Workflow
 
 Below is the recommended full pipeline from dataset generation to analysis.
