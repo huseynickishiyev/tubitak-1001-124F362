@@ -19,7 +19,6 @@ Disclaimer: The "Authors" named throughout this repository (Huseyn Kishiyev, Osm
    - [Ubuntu 24.04 LTS](#ubuntu-2404-lts)
    - [macOS (Apple Silicon)](#macos-apple-silicon)
 3. [Source Files](#source-files)
-   - [runs\_entropy\_estimation.cpp](#runs_entropy_estimationcpp)
    - [index\_value\_coincidence.cpp](#index_value_coincidencecpp)
    - [generate\_data.cpp](#generate_datacpp)
    - [aes\_full.cpp](#aes_fullcpp)
@@ -147,41 +146,6 @@ make non_iid
 ---
 
 ## Source Files
-
----
-
-### `runs_entropy_estimation.cpp`
-
-**Purpose:** Implements four entropy estimation methods from Doğanaksoy et al.:
-
-| Method | Description |
-|---|---|
-| `countRuns` | Algorithm 1 — counts total runs in a sequence |
-| `countTRuns` | Algorithm 2 — counts runs of exact length *t* |
-| `binaryRunsMinEntropy` | Solves the quadratic for binary min-entropy from observed run count |
-| `generalRunsMinEntropy` | Bisection solver for *k*-symbol near-uniform min-entropy |
-| `computeCollisions` | Computes collision times per Definition 4 |
-| `collisionStatistic` | Standard collision statistic *S_m* |
-| `peculiarCollisionEntropy4` | Peculiar collision estimator for 4-symbol alphabet with 99% CI bounds |
-
-The `main()` function reproduces all paper examples (Examples 1–4, Propositions 1–3) with expected values annotated in comments for verification.
-
-**No external dependencies** — uses only the C++ standard library.
-
-**Compile:**
-
-```bash
-# Ubuntu / macOS
-g++ -O2 -std=c++17 -o runs_entropy runs_entropy_estimation.cpp
-```
-
-**Run:**
-
-```bash
-./runs_entropy
-```
-
-**Expected output:** Reproduced paper examples with run counts, expected/variance statistics, min-entropy estimates, and peculiar collision bounds.
 
 ---
 
